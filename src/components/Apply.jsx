@@ -6,6 +6,7 @@ import slide_image_2 from "../assets/Photos/Apply (2).jpg";
 import slide_image_3 from "../assets/Photos/Apply (5).jpg";
 import slide_image_4 from "../assets/Photos/Apply (3).jpg";
 import slide_image_5 from "../assets/Photos/Apply (4).jpg";
+import slide_image_6 from "../assets/Photos/summer.jpg";
 import travel from "../assets/Photos/travel.jpg";
 import ScrollToTop from "./ScrollToTop";
 
@@ -34,6 +35,11 @@ const imageData = [
     image: slide_image_5,
     writeup: "Center leasing/CBT",
     to: "cbt",
+  },
+  {
+    image: slide_image_6,
+    writeup: "Summer Bootcamp",
+    to: "https://forms.gle/hxB8WLZ6zCbyyYfC7",
   },
   // Add more data objects for additional cards
 ];
