@@ -36,6 +36,7 @@ const Hero = () => {
       variants={container}
       initial="hidden"
       animate="show"
+      style={{ paddingTop: "150px" }}
     >
       <motion.div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 pt-24`}

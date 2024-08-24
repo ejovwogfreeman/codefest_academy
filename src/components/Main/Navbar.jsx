@@ -25,10 +25,16 @@ const Navbar = () => {
       className={`w-full flex py-3 z-10 p-5 justify-between items-center navbar transition-all ${
         visible ? "top-0" : "-translate-y-full"
       }`}
-      style={{ position: "fixed", left: 0, right: 0, zIndex: 999, backdropFilter: "blur(20px)" }}
+      style={{
+        position: "fixed",
+        left: 0,
+        right: 0,
+        zIndex: 999,
+        backdropFilter: "blur(20px)",
+      }}
     >
       <Link to={`/`}>
-        <img src={logo} alt="Codefest" className="w-[190px] h-[50px] logo" />
+        <img src={logo} alt="Codefest" className="w-[115px] h-[100px] logo" />
       </Link>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
@@ -36,7 +42,9 @@ const Navbar = () => {
           <li
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] ${
-              location.pathname === `/${nav.id}` ? "text-white" : "text-dimWhite"
+              location.pathname === `/${nav.id}`
+                ? "text-white"
+                : "text-dimWhite"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
@@ -63,7 +71,9 @@ const Navbar = () => {
               <li
                 key={nav.id}
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  location.pathname === `/${nav.id}` ? "text-white" : "text-dimWhite"
+                  location.pathname === `/${nav.id}`
+                    ? "text-white"
+                    : "text-dimWhite"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
