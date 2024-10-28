@@ -38,6 +38,7 @@ import Terminal1 from "./Main/Terminal1";
 import Works from "./Works";
 import PartnerCarousel from "./Main/PartnerCarousel";
 import Partners from "./Partners";
+import Mdp from "./Mdp";
 
 export {
   Navbar,
@@ -80,4 +81,5 @@ export {
   Works,
   PartnerCarousel,
   Partners,
+  Mdp,
 };

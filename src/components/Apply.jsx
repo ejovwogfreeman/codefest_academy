@@ -52,6 +52,7 @@ const Banner = () => {
         backgroundImage: `url('${travel}')`,
         height: "300px", // Adjust the height as needed
         position: "relative",
+        paddingTop: "50px",
       }}
     >
       <div

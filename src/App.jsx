@@ -12,6 +12,7 @@ import {
   // Apply5,
   Works,
   Partners,
+  Mdp,
 } from "./components";
 // import { ApplyProgram } from "./components/Main/Apply";
 import Career from "./components/CareerNav";
@@ -36,6 +37,7 @@ const App = () => {
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/how-it-works" element={<Works />} />
             <Route path="/partners" element={<Partners />} />
+            <Route path="/ms-mdp" element={<Mdp />} />
           </Routes>
         </Router>
       </div>

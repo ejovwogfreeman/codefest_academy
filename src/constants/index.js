@@ -32,6 +32,10 @@ export const navLinks = [
     id: "apply",
     title: "Apply",
   },
+  {
+    id: "ms-mdp",
+    title: "ms-mdp",
+  },
 ];
 
 export const items = [
