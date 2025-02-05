@@ -29,13 +29,25 @@ export const navLinks = [
     title: "Career",
   },
   {
+    id: "diploma-certification",
+    title: "Diploma Certification",
+  },
+  {
+    id: "mobile-school",
+    title: "Mobile School",
+  },
+  {
+    id: "cbt",
+    title: "CBT",
+  },
+  {
     id: "apply",
     title: "Apply",
   },
-  {
-    id: "ms-mdp",
-    title: "ms-mdp",
-  },
+  // {
+  //   id: "ms-mdp",
+  //   title: "ms-mdp",
+  // },
 ];
 
 export const items = [
@@ -59,21 +71,20 @@ export const features = [
     icon: star,
     title: "E-Learning",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Flexible online learning brings knowledge to your fingertips daily.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "Certifications",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Achieve recognized certifications to elevate your professional journey.",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Job offer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    content: "An incredible job opportunity can change your future forever.",
   },
 ];
 export const paths = [

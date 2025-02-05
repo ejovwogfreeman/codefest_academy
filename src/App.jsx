@@ -12,7 +12,10 @@ import {
   // Apply5,
   Works,
   Partners,
-  Mdp,
+  CodefestCBT,
+  DiplomaCertification,
+  MobileSchool,
+  // Mdp,
 } from "./components";
 // import { ApplyProgram } from "./components/Main/Apply";
 import Career from "./components/CareerNav";
@@ -37,7 +40,13 @@ const App = () => {
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/how-it-works" element={<Works />} />
             <Route path="/partners" element={<Partners />} />
-            <Route path="/ms-mdp" element={<Mdp />} />
+            <Route
+              path="/diploma-certification"
+              element={<DiplomaCertification />}
+            />
+            <Route path="/mobile-school" element={<MobileSchool />} />
+            <Route path="/cbt" element={<CodefestCBT />} />
+            {/* <Route path="/ms-mdp" element={<Mdp />} /> */}
           </Routes>
         </Router>
       </div>
